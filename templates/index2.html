@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+    <title>AI-Bus</title>
+</head>
+<body>
+    <div class="topnav">
+      <a href="/">Home</a>
+      <a href="/machine_learning_accuracy">Machine Learning Accuracy</a>
+      <a href="/available_buses">Available Buses</a>
+    </div>
+    <div style="text-align:center;padding:1em 0;"><iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Asia%2FSingapore" width="100%" height="70" frameborder="0" seamless></iframe> </div>
+        <title>OneMap2 XYZ (Default)</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+        <script src="https://cdn.onemap.sg/leaflet/onemap-leaflet.js"></script>
+
+          <h1>Live Bus Map</h1>
+
+          {% include "map1.html" %}
+
+</body>
+</html>

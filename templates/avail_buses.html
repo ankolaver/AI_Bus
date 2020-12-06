@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+    <title>Available Buses</title>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+  <div class="topnav">
+      <a href="/">Home</a>
+      <a href="/machine_learning_accuracy">Machine Learning Accuracy</a>
+      <a href="/available_buses">Available Buses</a>
+  </div>
+  <h1>Bus Records</h1>
+      <div style="text-align:center;padding:1em 0;"><iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=small&timezone=Asia%2FSingapore" width="100%" height="70" frameborder="0" seamless></iframe> </div>
+  <table style="width:100%" id="t01">
+    <tr>
+      <th>Bus Type</th>
+      <th>Intended Service</th>
+      <th>Quantity Extra</th>
+      <th>Maintenance Log</th>
+      <th>Request for Immediate bus</th>
+    </tr>
+    <tr>
+      <td>Volvo B9TL</td>
+      <td>153</td>
+      <td>2</td>
+      <td> ltalog.gov.sg/153/logfile.log</td>
+      <td><a href='https://api.telegram.org/bot861809812:AAGX8Kv-GV4XXByJw9lKYGqOQDVySqRLkr4/sendMessage?chat_id=372601813&text=Bus+153+Driver,+please+dispatch+your+bus+now.+Thanks!'button type="button">Deploy this Bus!</button>
+        </td>
+    </tr>
+    <tr>
+      <td>Scania K230UB</td>
+      <td>158</td>
+      <td>0</td>
+      <td> ltalog.gov.sg/158/logfile.log</td>
+      <td><a href='https://api.telegram.org/bot861809812:AAGX8Kv-GV4XXByJw9lKYGqOQDVySqRLkr4/sendMessage?chat_id=372601813&text=Bus+158+Driver,+please+dispatch+your+bus+now.+Thanks!'button type="button">Deploy this Bus!</button></td>
+    </tr>
+    <tr>
+    <td>MAN A22</td>
+    <td>107</td>
+    <td>1</td>
+    <td> ltalog.gov.sg/107/logfile.log</td>
+    <td><a href='https://api.telegram.org/bot861809812:AAGX8Kv-GV4XXByJw9lKYGqOQDVySqRLkr4/sendMessage?chat_id=372601813&text=Bus+107+Driver,+please+dispatch+your+bus+now.+Thanks!'button type="button">Deploy this Bus!</button></td>
+    </tr>
+    <tr>
+    <td>Mercedes Citaro 500</td>
+    <td>106</td>
+    <td>3</td>
+    <td> ltalog.gov.sg/106/logfile.log</td>
+    <td><a href='https://api.telegram.org/bot861809812:AAGX8Kv-GV4XXByJw9lKYGqOQDVySqRLkr4/sendMessage?chat_id=372601813&text=Bus+106+Driver,+please+dispatch+your+bus+now.+Thanks!'button type="button">Deploy this Bus!</button></td>
+    </tr>
+    <tr>
+    <td>MAN A22</td>
+    <td>100</td>
+    <td>0</td>
+    <td> ltalog.gov.sg/100/logfile.log</td>
+    <td><a href='https://api.telegram.org/bot861809812:AAGX8Kv-GV4XXByJw9lKYGqOQDVySqRLkr4/sendMessage?chat_id=372601813&text=Bus+100+Driver,+please+dispatch+your+bus+now.+Thanks!'button type="button">Deploy this Bus!</button></td>
+    </tr>
+    <tr>
+    <td>Volvo B5LH</td>
+    <td>93</td>
+    <td>2</td>
+    <td> ltalog.gov.sg/93/logfile.log</td>
+    <td><a href='https://api.telegram.org/bot861809812:AAGX8Kv-GV4XXByJw9lKYGqOQDVySqRLkr4/sendMessage?chat_id=372601813&text=Bus+93+Driver,+please+dispatch+your+bus+now.+Thanks!'button type="button">Deploy this Bus!</button></td>
+    </tr>
+  </table>
+</body>
+</html>

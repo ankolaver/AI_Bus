@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/index.css') }}">
+    <title>Machine Learning Accuracy</title>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="/">Home</a>
+    <a href="/machine_learning_accuracy">Machine Learning Accuracy</a>
+    <a href="/available_buses">Available Buses</a>
+  </div>
+  <h1>Which bus to monitor?</h1>
+
+
+<style>
+/* Dropdown Button */
+.dropbtn {
+ background-color: #4CAF50;
+ color: white;
+ padding: 16px;
+ font-size: 24px;
+ border-radius: 24px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f1f1f1;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+ font-size: 20px;
+ border-radius: 24px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+border-radius: 24px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+
+<form method="POST"><input type="submit" name="inputbutton" value="Bus Number 2">
+<input type="submit" name="inputbutton" value="Bus Number 1"></form>
+   <!--form action="" method="POST" ><a href="#">Bus Number 1</a>
+     <form action="" method="POST" value="Bus Number 2"<a href="#">Bus Number 2</a>>
+   <a href="#" input type="submit" name="submit_button" value="Bus Number 2">Bus Number 2</a-->
+
+ </div>
+</div>
+
+</body>
+</html>
